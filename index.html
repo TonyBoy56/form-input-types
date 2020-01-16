@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Survey</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Survey</h1>
+
+    <p>Hello Reader! What is your favorite food? (Among these options)</p>
+    <form id="select-boxes">
+      <div class="form-group">
+        <select id="food" class="form-control">
+          <option>Burger</option>
+          <option>Pizza</option>
+          <option>Salad</option>
+          <option>Ice Cream</option>
+        </select>
+      </div>
+    </form>
+
+    <p>If you could be an animal what animal would you be?</p>
+    <form id="radio-buttons">
+      <div class="radio">
+        <label>
+          <input type="radio" name="animal" value="giraffe">Giraffe
+        </label>
+      </div>
+
+      <div class="radio">
+        <label>
+          <input type="radio" name="animal" value="zebra">Zebra
+        </label>
+      </div>
+
+      <div class="radio">
+        <label>
+          <input type="radio" name="animal" value="sloth">Sloth
+        </label>
+      </div>
+
+      <div class="radio">
+        <label>
+          <input type="radio" name="animal" value="lion">Lion
+        </label>
+      </div>
+    </form>
+
+    <p>If you had to guess...</p>
+    <form id="date">
+      <div class="form-group">
+        <label for="born">When was the last time you called your grandmother:</label>
+        <input id="born" class="form-control" type="date">
+      </div>
+    </form>
+
+    <form id="color">
+        <div class="form-group">
+          <label for="color">Buddy the Elf, what's your favorite color?</label>
+          <input id="color" class="form-control" type="color">
+        </div>
+      </form>
+    
+
+  </div>
+</body>
+
+</html>
